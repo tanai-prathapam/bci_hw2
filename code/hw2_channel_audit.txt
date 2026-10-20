@@ -1,0 +1,11 @@
+S1 chLabels class=cell size=[32 1]
+S1 data labels: FP1,FPZ,FP2,F7,F3,FZ,F4,F8,FC5,FC1,FC2,FC6,M1,T7,C3,CZ,C4,T8,M2,CP5,CP1,CP2,CP6,P7,P3,PZ,P4,P8,POZ,O1,OZ,O2
+S1 all found in loc: 1 | identical order: 1
+S1 data->loc index: [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32]
+S1 labels identical across all 21 runs: 1
+S2 chLabels class=cell size=[32 1]
+S2 data labels: FP1,FPZ,FP2,F7,F3,FZ,F4,F8,FC5,FC1,FC2,FC6,M1,T7,C3,CZ,C4,T8,M2,CP5,CP1,CP2,CP6,P7,P3,PZ,P4,P8,POZ,O1,OZ,O2
+S2 all found in loc: 1 | identical order: 1
+S2 data->loc index: [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32]
+S2 labels identical across all 21 runs: 1
+S2 s3 r2 EEG length 138752 | bad idx 102 | TYP 32766 | POS 138967

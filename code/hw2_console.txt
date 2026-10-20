@@ -1,0 +1,291 @@
+hw2_extract run at 20-Oct-2026 18:15:46
+Config: TIMEOUT_S=7 TIMEOUT_TOL=0.25 OFFLINE_S=5
+ch32Locations: variable "ch32Locations", 32 channels
+Loc labels: Fp1,Fpz,Fp2,F7,F3,Fz,F4,F8,FC5,FC1,FC2,FC6,M1,T7,C3,Cz,C4,T8,M2,CP5,CP1,CP2,CP6,P7,P3,Pz,P4,P8,POz,O1,Oz,O2
+Loc fields: labels,theta,radius,X,Y,Z,sph_theta,sph_phi,sph_radius,type,urchan
+  Name               Size            Bytes  Class     Attributes
+
+  ch32Locations      1x32            44632  struct              
+
+
+===== subj1.mat =====
+  Name       Size                Bytes  Class     Attributes
+
+  subj1      1x1             738336898  struct              
+
+Top-level var: subj1
+Online sessions found: 6
+Offline run(1) fields: eeg,header
+Offline run(1).header fields: fs,chLabels,triggers
+S1 sess 0 run 1: 138240 x 32 EEG, fs=512, 102 events, 20 task starts
+S1 sess 0 run 2: 139264 x 32 EEG, fs=512, 102 events, 20 task starts
+S1 sess 0 run 3: 137216 x 32 EEG, fs=512, 102 events, 20 task starts
+S1 sess 1 run 1: 129536 x 32 EEG, fs=512, 102 events, 20 task starts
+S1 sess 1 run 2: 142336 x 32 EEG, fs=512, 102 events, 20 task starts
+S1 sess 1 run 3: 128512 x 32 EEG, fs=512, 102 events, 20 task starts
+S1 sess 2 run 1: 134144 x 32 EEG, fs=512, 102 events, 20 task starts
+S1 sess 2 run 2: 134656 x 32 EEG, fs=512, 102 events, 20 task starts
+S1 sess 2 run 3: 147968 x 32 EEG, fs=512, 102 events, 20 task starts
+S1 sess 3 run 1: 135168 x 32 EEG, fs=512, 102 events, 20 task starts
+S1 sess 3 run 2: 139264 x 32 EEG, fs=512, 102 events, 20 task starts
+S1 sess 3 run 3: 142336 x 32 EEG, fs=512, 102 events, 20 task starts
+S1 sess 4 run 1: 146432 x 32 EEG, fs=512, 102 events, 20 task starts
+S1 sess 4 run 2: 137728 x 32 EEG, fs=512, 102 events, 20 task starts
+S1 sess 4 run 3: 148992 x 32 EEG, fs=512, 102 events, 20 task starts
+S1 sess 5 run 1: 134656 x 32 EEG, fs=512, 102 events, 20 task starts
+S1 sess 5 run 2: 133120 x 32 EEG, fs=512, 102 events, 20 task starts
+S1 sess 5 run 3: 125952 x 32 EEG, fs=512, 102 events, 20 task starts
+S1 sess 6 run 1: 122368 x 32 EEG, fs=512, 102 events, 20 task starts
+S1 sess 6 run 2: 139776 x 32 EEG, fs=512, 102 events, 20 task starts
+S1 sess 6 run 3: 145920 x 32 EEG, fs=512, 102 events, 20 task starts
+
+===== subj2.mat =====
+  Name       Size                Bytes  Class     Attributes
+
+  subj2      1x1             751575170  struct              
+
+Top-level var: subj2
+Online sessions found: 6
+Offline run(1) fields: eeg,header
+Offline run(1).header fields: fs,chLabels,triggers
+S2 sess 0 run 1: 138752 x 32 EEG, fs=512, 102 events, 20 task starts
+S2 sess 0 run 2: 138240 x 32 EEG, fs=512, 102 events, 20 task starts
+S2 sess 0 run 3: 138240 x 32 EEG, fs=512, 102 events, 20 task starts
+S2 sess 1 run 1: 132608 x 32 EEG, fs=512, 102 events, 20 task starts
+S2 sess 1 run 2: 126464 x 32 EEG, fs=512, 102 events, 20 task starts
+S2 sess 1 run 3: 115200 x 32 EEG, fs=512, 102 events, 20 task starts
+S2 sess 2 run 1: 146432 x 32 EEG, fs=512, 102 events, 20 task starts
+S2 sess 2 run 2: 147968 x 32 EEG, fs=512, 102 events, 20 task starts
+S2 sess 2 run 3: 141824 x 32 EEG, fs=512, 102 events, 20 task starts
+S2 sess 3 run 1: 136192 x 32 EEG, fs=512, 102 events, 20 task starts
+S2 sess 3 run 2: 138752 x 32 EEG, fs=512, 102 events, 20 task starts
+S2 sess 3 run 3: 148992 x 32 EEG, fs=512, 102 events, 20 task starts
+S2 sess 4 run 1: 155136 x 32 EEG, fs=512, 102 events, 20 task starts
+S2 sess 4 run 2: 139264 x 32 EEG, fs=512, 102 events, 20 task starts
+S2 sess 4 run 3: 148992 x 32 EEG, fs=512, 102 events, 20 task starts
+S2 sess 5 run 1: 135168 x 32 EEG, fs=512, 102 events, 20 task starts
+S2 sess 5 run 2: 138752 x 32 EEG, fs=512, 102 events, 20 task starts
+S2 sess 5 run 3: 146432 x 32 EEG, fs=512, 102 events, 20 task starts
+S2 sess 6 run 1: 137216 x 32 EEG, fs=512, 102 events, 20 task starts
+S2 sess 6 run 2: 144896 x 32 EEG, fs=512, 102 events, 20 task starts
+S2 sess 6 run 3: 139776 x 32 EEG, fs=512, 102 events, 20 task starts
+
+Trials per subject/session/run/class:
+    <strong>subject</strong>    <strong>session</strong>    <strong>run</strong>    <strong>class</strong>     <strong>GroupCount</strong>    <strong>Percent</strong>
+    <strong>_______</strong>    <strong>_______</strong>    <strong>___</strong>    <strong>______</strong>    <strong>__________</strong>    <strong>_______</strong>
+
+       1          0        1     {'LH'}        10        1.1905 
+       1          0        1     {'RH'}        10        1.1905 
+       1          0        2     {'LH'}        10        1.1905 
+       1          0        2     {'RH'}        10        1.1905 
+       1          0        3     {'LH'}        10        1.1905 
+       1          0        3     {'RH'}        10        1.1905 
+       1          1        1     {'LH'}        10        1.1905 
+       1          1        1     {'RH'}        10        1.1905 
+       1          1        2     {'LH'}        10        1.1905 
+       1          1        2     {'RH'}        10        1.1905 
+       1          1        3     {'LH'}        10        1.1905 
+       1          1        3     {'RH'}        10        1.1905 
+       1          2        1     {'LH'}        10        1.1905 
+       1          2        1     {'RH'}        10        1.1905 
+       1          2        2     {'LH'}        10        1.1905 
+       1          2        2     {'RH'}        10        1.1905 
+       1          2        3     {'LH'}        10        1.1905 
+       1          2        3     {'RH'}        10        1.1905 
+       1          3        1     {'LH'}        10        1.1905 
+       1          3        1     {'RH'}        10        1.1905 
+       1          3        2     {'LH'}        10        1.1905 
+       1          3        2     {'RH'}        10        1.1905 
+       1          3        3     {'LH'}        10        1.1905 
+       1          3        3     {'RH'}        10        1.1905 
+       1          4        1     {'LH'}        10        1.1905 
+       1          4        1     {'RH'}        10        1.1905 
+       1          4        2     {'LH'}        10        1.1905 
+       1          4        2     {'RH'}        10        1.1905 
+       1          4        3     {'LH'}        10        1.1905 
+       1          4        3     {'RH'}        10        1.1905 
+       1          5        1     {'LH'}        10        1.1905 
+       1          5        1     {'RH'}        10        1.1905 
+       1          5        2     {'LH'}        10        1.1905 
+       1          5        2     {'RH'}        10        1.1905 
+       1          5        3     {'LH'}        10        1.1905 
+       1          5        3     {'RH'}        10        1.1905 
+       1          6        1     {'LH'}        10        1.1905 
+       1          6        1     {'RH'}        10        1.1905 
+       1          6        2     {'LH'}        10        1.1905 
+       1          6        2     {'RH'}        10        1.1905 
+       1          6        3     {'LH'}        10        1.1905 
+       1          6        3     {'RH'}        10        1.1905 
+       2          0        1     {'LH'}        10        1.1905 
+       2          0        1     {'RH'}        10        1.1905 
+       2          0        2     {'LH'}        10        1.1905 
+       2          0        2     {'RH'}        10        1.1905 
+       2          0        3     {'LH'}        10        1.1905 
+       2          0        3     {'RH'}        10        1.1905 
+       2          1        1     {'LH'}        10        1.1905 
+       2          1        1     {'RH'}        10        1.1905 
+       2          1        2     {'LH'}        10        1.1905 
+       2          1        2     {'RH'}        10        1.1905 
+       2          1        3     {'LH'}        10        1.1905 
+       2          1        3     {'RH'}        10        1.1905 
+       2          2        1     {'LH'}        10        1.1905 
+       2          2        1     {'RH'}        10        1.1905 
+       2          2        2     {'LH'}        10        1.1905 
+       2          2        2     {'RH'}        10        1.1905 
+       2          2        3     {'LH'}        10        1.1905 
+       2          2        3     {'RH'}        10        1.1905 
+       2          3        1     {'LH'}        10        1.1905 
+       2          3        1     {'RH'}        10        1.1905 
+       2          3        2     {'LH'}        10        1.1905 
+       2          3        2     {'RH'}        10        1.1905 
+       2          3        3     {'LH'}        10        1.1905 
+       2          3        3     {'RH'}        10        1.1905 
+       2          4        1     {'LH'}        10        1.1905 
+       2          4        1     {'RH'}        10        1.1905 
+       2          4        2     {'LH'}        10        1.1905 
+       2          4        2     {'RH'}        10        1.1905 
+       2          4        3     {'LH'}        10        1.1905 
+       2          4        3     {'RH'}        10        1.1905 
+       2          5        1     {'LH'}        10        1.1905 
+       2          5        1     {'RH'}        10        1.1905 
+       2          5        2     {'LH'}        10        1.1905 
+       2          5        2     {'RH'}        10        1.1905 
+       2          5        3     {'LH'}        10        1.1905 
+       2          5        3     {'RH'}        10        1.1905 
+       2          6        1     {'LH'}        10        1.1905 
+       2          6        1     {'RH'}        10        1.1905 
+       2          6        2     {'LH'}        10        1.1905 
+       2          6        2     {'RH'}        10        1.1905 
+       2          6        3     {'LH'}        10        1.1905 
+       2          6        3     {'RH'}        10        1.1905 
+
+
+Subject 1 accuracy (rows=sessions, cols=runs):
+    0.6471    0.6429    0.7333
+    0.9231    0.6667    0.9000
+    0.6923    1.0000    1.0000
+    0.9091    1.0000    0.8571
+    0.8667    1.0000    0.8235
+    0.9412    0.8333    0.6364
+
+Subject 1 fraction timeout (rows=sessions, cols=runs):
+    0.1500    0.3000    0.2500
+    0.3500    0.2500    0.5000
+    0.3500    0.3500    0.4000
+    0.4500    0.4000    0.6500
+    0.2500    0.2000    0.1500
+    0.1500    0.4000    0.4500
+
+
+Subject 2 accuracy (rows=sessions, cols=runs):
+    0.5333    0.4500    0.5000
+    0.1429    0.6250    0.5455
+    0.8000    0.8462    0.6667
+    1.0000    1.0000    1.0000
+    1.0000    1.0000    1.0000
+    1.0000    1.0000    1.0000
+
+Subject 2 fraction timeout (rows=sessions, cols=runs):
+    0.2500         0         0
+    0.6500    0.6000    0.4500
+    0.2500    0.3500    0.7000
+    0.7500    0.5500    0.6500
+    0.2500    0.4500    0.6500
+    0.2500    0.5500    0.5000
+
+Subject 1 lowest-variance channels: CP1,T8,C3 (mean var [4.8e+04 9.4e+04 9.43e+04])
+Subject 2 lowest-variance channels: P4,P8,CP5 (mean var [5.34e+04 6.09e+04 6.59e+04])
+
+Unique fs across all runs: 512
+
+Online 7692/7702 task durations (s), to choose timeout cutoff:
+  n=366, min=0.34, median=7.02, max=7.07
+  histcounts over bins [0,1,...,8] s: [4 20 20 16 11 10 9 276]
+Online hit durations: min=0.41, median=3.18, max=7.00
+Offline durations: median 5.00 s (expect 5)
+
+Outcome totals (online):
+    <strong>subject</strong>    <strong>session</strong>      <strong>outcome</strong>      <strong>GroupCount</strong>    <strong>Percent</strong>
+    <strong>_______</strong>    <strong>_______</strong>    <strong>___________</strong>    <strong>__________</strong>    <strong>_______</strong>
+
+       1          1       {'hit'    }        31         4.3056
+       1          1       {'miss'   }        15         2.0833
+       1          1       {'timeout'}        14         1.9444
+       1          2       {'hit'    }        31         4.3056
+       1          2       {'miss'   }         7        0.97222
+       1          2       {'timeout'}        22         3.0556
+       1          3       {'hit'    }        34         4.7222
+       1          3       {'miss'   }         4        0.55556
+       1          3       {'timeout'}        22         3.0556
+       1          4       {'hit'    }        28         3.8889
+       1          4       {'miss'   }         2        0.27778
+       1          4       {'timeout'}        30         4.1667
+       1          5       {'hit'    }        43         5.9722
+       1          5       {'miss'   }         5        0.69444
+       1          5       {'timeout'}        12         1.6667
+       1          6       {'hit'    }        33         4.5833
+       1          6       {'miss'   }         7        0.97222
+       1          6       {'timeout'}        20         2.7778
+       2          1       {'hit'    }        27           3.75
+       2          1       {'miss'   }        28         3.8889
+       2          1       {'timeout'}         5        0.69444
+       2          2       {'hit'    }        12         1.6667
+       2          2       {'miss'   }        14         1.9444
+       2          2       {'timeout'}        34         4.7222
+       2          3       {'hit'    }        27           3.75
+       2          3       {'miss'   }         7        0.97222
+       2          3       {'timeout'}        26         3.6111
+       2          4       {'hit'    }        21         2.9167
+       2          4       {'timeout'}        39         5.4167
+       2          5       {'hit'    }        33         4.5833
+       2          5       {'timeout'}        27           3.75
+       2          6       {'hit'    }        34         4.7222
+       2          6       {'timeout'}        26         3.6111
+
+
+===== QC FLAGS =====
+S1 s0 r1: chLabels differ from ch32Locations order
+S1 s0 r2: chLabels differ from ch32Locations order
+S1 s0 r3: chLabels differ from ch32Locations order
+S1 s1 r1: chLabels differ from ch32Locations order
+S1 s1 r2: chLabels differ from ch32Locations order
+S1 s1 r3: chLabels differ from ch32Locations order
+S1 s2 r1: chLabels differ from ch32Locations order
+S1 s2 r2: chLabels differ from ch32Locations order
+S1 s2 r3: chLabels differ from ch32Locations order
+S1 s3 r1: chLabels differ from ch32Locations order
+S1 s3 r2: chLabels differ from ch32Locations order
+S1 s3 r3: chLabels differ from ch32Locations order
+S1 s4 r1: chLabels differ from ch32Locations order
+S1 s4 r2: chLabels differ from ch32Locations order
+S1 s4 r3: chLabels differ from ch32Locations order
+S1 s5 r1: chLabels differ from ch32Locations order
+S1 s5 r2: chLabels differ from ch32Locations order
+S1 s5 r3: chLabels differ from ch32Locations order
+S1 s6 r1: chLabels differ from ch32Locations order
+S1 s6 r2: chLabels differ from ch32Locations order
+S1 s6 r3: chLabels differ from ch32Locations order
+S2 s0 r1: chLabels differ from ch32Locations order
+S2 s0 r2: chLabels differ from ch32Locations order
+S2 s0 r3: chLabels differ from ch32Locations order
+S2 s1 r1: chLabels differ from ch32Locations order
+S2 s1 r2: chLabels differ from ch32Locations order
+S2 s1 r3: chLabels differ from ch32Locations order
+S2 s2 r1: chLabels differ from ch32Locations order
+S2 s2 r2: chLabels differ from ch32Locations order
+S2 s2 r3: chLabels differ from ch32Locations order
+S2 s3 r1: chLabels differ from ch32Locations order
+S2 s3 r2: chLabels differ from ch32Locations order
+S2 s3 r2: POS out of EEG range
+S2 s3 r3: chLabels differ from ch32Locations order
+S2 s4 r1: chLabels differ from ch32Locations order
+S2 s4 r2: chLabels differ from ch32Locations order
+S2 s4 r3: chLabels differ from ch32Locations order
+S2 s5 r1: chLabels differ from ch32Locations order
+S2 s5 r2: chLabels differ from ch32Locations order
+S2 s5 r3: chLabels differ from ch32Locations order
+S2 s6 r1: chLabels differ from ch32Locations order
+S2 s6 r2: chLabels differ from ch32Locations order
+S2 s6 r3: chLabels differ from ch32Locations order
+
+Saved hw2_extracted.mat (local only), hw2_trials.csv, hw2_run_metrics.csv, hw2_console.txt

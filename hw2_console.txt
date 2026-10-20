@@ -1,0 +1,9 @@
+hw2_extract run at 20-Oct-2026 18:10:12
+Config: TIMEOUT_S=7 TIMEOUT_TOL=0.25 OFFLINE_S=5
+{Error using <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to find file or directory 'ch32Locations.mat'.
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('hw2_mat_extract', 'C:\Users\bravo\OneDrive - The University of Texas at Austin\Desktop\Tanai''s Data\UT Undergrad ALL\UT Classes ALL\BCI\HW_2_export\hw2_mat_extract.m', 22)" style="font-weight:bold">hw2_mat_extract</a> (<a href="matlab: opentoline('C:\Users\bravo\OneDrive - The University of Texas at Austin\Desktop\Tanai''s Data\UT Undergrad ALL\UT Classes ALL\BCI\HW_2_export\hw2_mat_extract.m',22,0)">line 22</a>)
+L = load(locFile);
+    ^^^^^^^^^^^^^
+} 
