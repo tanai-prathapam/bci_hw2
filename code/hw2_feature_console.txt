@@ -1,0 +1,67 @@
+hw2_feature_tracking run at 21-Oct-2026 04:13:36
+Loaded Fisher (session-level and per-run) and accuracy for 2 subjects.
+
+===== 2.2.4 Best session-6 feature per subject (variant A, window-level linear PSD) =====
+Subject 1: feature #228 = C4 at 10 Hz, session-6 F = 0.111 (central motor, mu/alpha (8-12))
+  session-pooled F on-1..on-6: [0.138 0.351 0.0128 0.118 0.289 0.111]
+  per-run F (rows = sessions, cols = runs):
+    0.1401    0.0502    0.4138
+    0.2965    0.6278    0.1999
+    0.0014    0.0175    0.0044
+    0.1420    0.3055    0.0300
+    0.1788    0.4503    0.3726
+    0.5305    0.1015    0.0107
+
+  held-out session-6 values: [0.0637 0.101 0.0107] | features chosen per fold: T7-22Hz, C4-10Hz, C4-10Hz
+  trend nominal (n=18): r=0.024 p=0.9257 | Spearman rho=0.022 p=0.9311 | slope=0.0027
+  trend held-out s6 (n=18): r=-0.187 p=0.457 | Spearman rho=-0.135 p=0.5938
+  trend sessions 1-5 only (n=15): r=0.038 p=0.893
+  trend session-pooled F (n=6): Spearman rho=-0.314 p=0.5639
+Subject 2: feature #168 = FC6 at 30 Hz, session-6 F = 0.651 (lateral FC/CP, high beta (22-30))
+  session-pooled F on-1..on-6: [0.12 0.0509 0.0555 0.163 0.385 0.651]
+  per-run F (rows = sessions, cols = runs):
+    0.0200    0.1395    0.4655
+    0.0775    0.0858    0.0636
+    0.1086    0.1535    0.0258
+    0.0473    0.2624    0.3705
+    0.1687    0.5738    0.9091
+    0.8858    1.0682    0.3762
+
+  held-out session-6 values: [0.649 0.601 0.128] | features chosen per fold: P8-10Hz, FC6-28Hz, P8-12Hz
+  trend nominal (n=18): r=0.664 p=0.002654 | Spearman rho=0.655 p=0.003161 | slope=0.1256
+  trend held-out s6 (n=18): r=0.537 p=0.02159 | Spearman rho=0.567 p=0.01404
+  trend sessions 1-5 only (n=15): r=0.488 p=0.06488
+  trend session-pooled F (n=6): Spearman rho=0.829 p=0.05833
+
+Group on-1 vs on-6 (6 runs vs 6 runs; each subject's own feature):
+  nominal : mean diff = 0.291 | rank-sum p = 0.3939 | Welch p = 0.1672 | subject-adjusted p = 0.1299
+  held-out: mean diff = 0.054 | rank-sum p = 1 | Welch p = 0.7084 | subject-adjusted p = 0.6892
+
+Robustness: best session-6 feature per Fisher variant
+  A_win_linear           Subject 1: C4 10 Hz | F off..on-6 = [0.189;0.138;0.351;0.0128;0.118;0.289;0.111]
+  A_win_linear           Subject 2: FC6 30 Hz | F off..on-6 = [0.0406;0.12;0.0509;0.0555;0.163;0.385;0.651]
+  B_win_log10            Subject 1: C4 10 Hz | F off..on-6 = [0.134;0.13;0.33;0.0108;0.0973;0.238;0.137]
+  B_win_log10            Subject 2: FC6 30 Hz | F off..on-6 = [0.0362;0.156;0.169;0.0731;0.144;0.424;1.01]
+  C_trial_mean_linear    Subject 1: C4 10 Hz | F off..on-6 = [0.517;0.604;1.36;0.123;0.554;1.08;0.698]
+  C_trial_mean_linear    Subject 2: FC6 24 Hz | F off..on-6 = [0.0915;0.128;0.0927;0.102;0.644;0.846;2.32]
+
+===== 2.2.5 Subject 2: top-10 session-6 features vs command-delivery accuracy =====
+Subject 2 session accuracy (on-1..on-6): [0.494 0.438 0.771 1 1 1]
+    <strong>rank</strong>    <strong>featureIdx</strong>    <strong>channel</strong>    <strong>freqHz</strong>             <strong>region</strong>                    <strong>band</strong>            <strong>r_session</strong>    <strong>p_session</strong>    <strong>pHolm_session</strong>    <strong>rho_session</strong>    <strong>pRho_session</strong>     <strong>r_run</strong>       <strong>p_run</strong>      <strong>pHolm_run</strong>    <strong>r_partial_run</strong>    <strong>p_partial</strong>    <strong>pHolm_partial</strong>
+    <strong>____</strong>    <strong>__________</strong>    <strong>_______</strong>    <strong>______</strong>    <strong>________________________</strong>    <strong>___________________</strong>    <strong>_________</strong>    <strong>_________</strong>    <strong>_____________</strong>    <strong>___________</strong>    <strong>____________</strong>    <strong>_______</strong>    <strong>_________</strong>    <strong>_________</strong>    <strong>_____________</strong>    <strong>_________</strong>    <strong>_____________</strong>
+
+      1        168         "FC6"       30      "lateral FC/CP"             "high beta (22-30)"     0.66406      0.15033           1            0.88041           0.05       0.50484     0.032616     0.22831        -0.13998       0.59208           1      
+      2        382         "P8"        10      "other frontal/parietal"    "mu/alpha (8-12)"       0.47499       0.3411           1            0.63754            0.2       0.34641      0.15906     0.79529        -0.14593       0.57625           1      
+      3        327         "P7"        12      "other frontal/parietal"    "mu/alpha (8-12)"       0.61344      0.19526           1            0.88041           0.05       0.62167    0.0058819    0.052937        -0.20312       0.43428           1      
+      4        383         "P8"        12      "other frontal/parietal"    "mu/alpha (8-12)"       0.60688      0.20144           1            0.88041           0.05       0.45971     0.054934      0.3296       -0.043665       0.86784           1      
+      5        167         "FC6"       28      "lateral FC/CP"             "high beta (22-30)"     0.49235      0.32115           1            0.33395        0.53333       0.34132      0.16569     0.79529        -0.28284       0.27133           1      
+      6        165         "FC6"       24      "lateral FC/CP"             "high beta (22-30)"     0.51219       0.2989           1            0.57682           0.25       0.29665      0.23195     0.79529        -0.24471       0.34383           1      
+      7        164         "FC6"       22      "lateral FC/CP"             "high beta (22-30)"     0.48692      0.32734           1            0.57682           0.25       0.31717      0.19969     0.79529        -0.24082       0.35181           1      
+      8        326         "P7"        10      "other frontal/parietal"    "mu/alpha (8-12)"       0.65025       0.1621           1            0.88041           0.05       0.64514    0.0038386    0.038386         -0.1427       0.58483           1      
+      9        341         "P3"        12      "other frontal/parietal"    "mu/alpha (8-12)"       0.62422      0.18528           1            0.75897        0.11667       0.56784     0.013963      0.1117        -0.17457       0.50279           1      
+     10        166         "FC6"       26      "lateral FC/CP"             "high beta (22-30)"     0.43064      0.39397           1            0.33395        0.53333       0.27173      0.27537     0.79529        -0.33297       0.19158           1      
+
+Significant after Holm (alpha = 0.05): session-level n=6: 0 | run-level n=18: 1 | partial (session removed): 0
+Uncorrected p < 0.05: session-level: 0 | run-level: 4 | partial: 0
+
+Saved CSVs and figures in hw2_figs
