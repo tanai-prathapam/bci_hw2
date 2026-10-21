@@ -54,3 +54,5 @@ __MACOSX/
 /code/hw2_extracted.mat
 
 hw2_extracted.mat
+
+hw2_*.mat
